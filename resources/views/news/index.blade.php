@@ -30,7 +30,7 @@
                     <tr>
                         <th scope="row">{{ $loop->iteration }}</th>
                         <td>{{ $article['title'] }}</td>
-                        <td><img src="{{ $article['banner'] }}" alt="" style="height: 50px"></td>
+                        <td><img src="https://be-news-production.up.railway.app/storage/{{ $article['banner'] }}" alt="" style="height: 50px"></td>
                         <td>
                             <form action="{{ route('news.destroy', $article['id']) }}" method="post">
                                 @csrf
