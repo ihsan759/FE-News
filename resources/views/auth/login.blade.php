@@ -36,6 +36,9 @@
                     </div>
                 </form>
             </div>
+            <div class="card-footer">
+                <a href="https://github.com/ihsan759/BE-News" class="text-primary">Tekan untuk melihat akun</a>
+            </div>
         </div>
     </div>
 @endsection
