@@ -9,7 +9,7 @@ class HttpClient
     static function fetch($method, $url, $body = [], $files = [])
     {
         $headers = [];
-        $domain = "http://127.0.0.1:8001/api/";
+        $domain = "https://be-news-production.up.railway.app/api/";
         // Jika method get, langsung return response dengan method get
         $token = session()->get("token", "");
         if ($token != "") {
