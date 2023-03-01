@@ -116,7 +116,7 @@ class NewsController extends Controller
     {
         $response = HttpClient::fetch(
             "POST",
-            "http://127.0.0.1:8001/api/news/destroy/$id"
+            "news/destroy/$id"
         );
         return redirect()->route('home')->with(['message' => $response['message']]);
     }
