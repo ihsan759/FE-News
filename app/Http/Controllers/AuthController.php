@@ -43,7 +43,7 @@ class AuthController extends Controller
     {
         $response = HttpClient::fetch(
             "POST",
-            "update",
+            "profile/update",
             $request->all()
         );
 
